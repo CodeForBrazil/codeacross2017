@@ -129,7 +129,7 @@ if (Meteor.isServer) {
     if (Accounts.findUserByUsername("admin") == null) {
       Accounts.createUser({
         "username": "admin",
-        "password": "CC2016"
+        "password": "CC2017"
       });
     }
   });
